@@ -1,0 +1,169 @@
+a{
+    text-decoration: none;
+}
+
+#BGColor {
+    background-color: #eac926
+}
+
+.secUltVis {
+    background-color: white;
+    font-size: 100%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 25px;
+    
+    
+  
+}
+
+.secUltVis:hover {
+   
+    box-shadow: 2px 2px 2px 2px rgb(110, 110, 110);
+    /*border-style: outset*/
+    
+  
+}
+
+
+.hori {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+
+}
+
+.icons {
+    display:flex;
+    flex-direction: row;
+    justify-content:baseline;
+}
+
+.boton {
+margin-left: 15px;
+color: black;
+text-decoration: none;
+
+}
+
+.navbar {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.produ {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px;
+    text-align: center;
+}
+
+.lastvisit{
+    background-color: #e9e9e9;
+    margin-left: -50px;
+    margin-right: -50px;
+    }
+
+.fuente {
+    font-family: monospace;
+    text-transform: uppercase;
+    color: #a4a4a4;
+    font-size: 30px;
+    margin-left: 15vw;
+}
+
+.detail {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+
+.prize {
+    font-family: segoe Ui;
+    font-size: 35px;
+     margin-left: 3vw;
+     text-decoration: none;
+   }
+
+.ofer {
+    font-family: segoe Ui;
+    color: rgb(5, 161, 5);
+    text-decoration: none;
+   
+}
+
+.desc{
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #a4a4a4;
+    text-decoration: none;    
+}
+
+.disclaimer {
+    width: 400px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    
+}
+
+.loginBG {
+    
+    font-family: segoe UI;
+    text-align: center;
+    
+    padding: 50px;
+}
+
+.loginBox {
+    color: black;
+    font-size: 12px;
+    background-color: white;
+    font-size: 100%;
+    margin:auto;
+    padding: 30px;
+    margin-bottom: 45px;
+    width: 1000px;
+    border-radius: 15px;
+}
+
+.copyright {
+   display: inline-block;
+   vertical-align: bottom;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .hori {
+        margin-bottom: 35px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .navbar {
+        
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    
+    .loginBox {
+        width: auto;
+        }
+    
+    .loginBG {
+        margin:auto
+    }
+
+}
